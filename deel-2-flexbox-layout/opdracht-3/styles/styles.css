@@ -1,1 +1,37 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+div, main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 2 2 auto;
+}
+
+header, footer {
+    flex-basis: 100px;
+    height: 100px;
+}
+
+article {
+    flex: 1 1 auto;
+    align-content: center;
+}
+
+aside {
+    flex: 0 0 200px;
+}
+
+nav {
+    width: 200px;
+    height: 100vh;
+}
+
+.layout {
+    width: 100%;
+    flex-direction: row;
+}
